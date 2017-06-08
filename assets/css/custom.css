@@ -2,10 +2,11 @@ html,
 body {
    width: 100%;
    height: 100%;
+   font-size: 16px;
 }
 
 body {
-   position: relative;
+   position: relative; /* Required for Bootstrap Scrollspy */
    overflow-y: scroll;
    color: #FFF;
    font-family: 'Raleway', sans-serif;
@@ -45,7 +46,7 @@ hr.gear-icon {
 }
 
 hr.gear-icon::after {
-   content: "\f005";
+   content: "\f013";
    font-family: FontAwesome;
    display: inline-block;
    position: relative;
@@ -70,9 +71,6 @@ hr.gear-icon::after {
    text-transform: uppercase;
 }
 
-.navbar-custom a.active > a {
-    color: red;
-}
 .navbar-custom li a:active {
     color: red;
     background: inherit;
@@ -96,7 +94,6 @@ hr.gear-icon::after {
 .navbar-custom .navbar-brand {
    color: #FFF;
 }
-
 
 
 .intro {
@@ -152,9 +149,21 @@ hr.gear-icon::after {
 
 h2.section-heading {
    text-align: center;
-   color: #268bd2
+   color: #268bd2;
 }
 
-.active {
-    color: red !important;
+li.active > a {
+    color: #d33682 !important;
+}
+li.active > a::before {
+    content: "> "
+}
+
+.typedjs-text {
+    height: 2em;
+    width: 100%;
+    font-size: 1.75em;
+    font-weight: 500;
+    color: #6c71c4;
+    text-shadow: 2px 2px 4px #000;
 }
