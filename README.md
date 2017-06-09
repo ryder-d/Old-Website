@@ -1,4 +1,5 @@
-#devonryder.com
+# devonryder.com
+
 This is the home of my personal portfolio page, hosted via Github Pages.
 
 ## Technologies
@@ -6,7 +7,7 @@ This is the home of my personal portfolio page, hosted via Github Pages.
 * Bootstrap 3.X
 * jQuery for Typed.js
 
-##TODO:
+## TODO
 * Improve UI / styling
 * Add projects
 * Convert to Jekyll for blog
