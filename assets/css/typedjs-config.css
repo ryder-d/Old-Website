@@ -24,3 +24,12 @@
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+.typedjs-text {
+    height: 2em;
+    width: 100%;
+    font-size: 1.75em;
+    font-weight: 500;
+    color: #d33682;
+    text-shadow: 2px 2px 4px #000;
+}
