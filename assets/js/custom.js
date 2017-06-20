@@ -9,13 +9,13 @@ $(function () {
 
 // Typed.js Setup
 $(function(){
-    $(".typedjs-text").typed({
+    $(".typed-text").typed({
         strings: ["Coder.", "Tech enthusiast", "Linux convert in training.",  "Confederation Collge graduate of Computer Programmer."],
         typeSpeed: 0,
         showCursor: true,
         cursorChar: "|",
         backDelay: 600,
         loop: true,
-        loopCount: null,
+        loopCount: null
 	});
 });

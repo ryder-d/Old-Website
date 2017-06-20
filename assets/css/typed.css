@@ -25,8 +25,9 @@
     100% { opacity:1; }
 }
 
-.typedjs-text {
-    height: 2em;
+.typed-text {
+    border:solid 2px red !important;
+    min-height: 50px;
     width: 100%;
     font-size: 1.75em;
     font-weight: 500;

@@ -26,7 +26,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: 268bd2;
+  color: #268bd2;
 }
 
 h1,
@@ -41,6 +41,15 @@ h6 {
    font-family: 'Cabin', sans-serif;
    font-weight: 600;
    letter-spacing: 1px;
+}
+
+h1.intro-heading {
+    font-size: 1.5em;
+}
+@media (min-width: 768px) {
+    h1.intro-heading {
+        font-size: 3.25em;
+    }
 }
 
 h2.section-heading {
@@ -69,7 +78,7 @@ hr.gear-icon {
 hr.gear-icon::after {
    content: "\f013";
    color: #d33682;
-   font-family: FontAwesome;
+    font-family: FontAwesome;
    display: inline-block;
    position: relative;
    top: -0.8em;
